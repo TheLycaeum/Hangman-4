@@ -56,7 +56,7 @@ def set_masked_letter():
         print("You have only {} tries left\n".format(tries))
         print("Already guessed letters",guesses,"\n")    
         if (tries == 0):
-            print (f"Sorry you lost the game,no tries left. the word is:{s_word}")
+            print ("Sorry you lost the game,no tries left. the word is:{}".format(s_word))
             break
 
 def won_game():
@@ -133,7 +133,7 @@ def set_masked_letter():
         print("You have only {} tries left".format(tries))
         print("Already guessed letters",g_line,)
         if (tries == 0):
-            print (f"Sorry you lost the game,no tries left. the word is:{s_word}")
+            print ("Sorry you lost the game,no tries left. the word is:{}".format(s_word))
             break
         if (tries >=1):
             print("you won")
