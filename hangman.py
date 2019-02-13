@@ -148,7 +148,7 @@ def won_game():
         print("sorry you lost")
 
 
-if __name__ == __"main"__:
+if __name__ == "__main__":
     set_masked_letter()
 
 
